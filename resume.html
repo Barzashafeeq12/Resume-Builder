@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume builder</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <h1>Static Interactive Resume Builder</h1>
+    <hi>By Barza Shafeeq-ur-Rehman</hi>
+    <form id="resume form">
+        <section>
+            <h2>Personal Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name"name="name" required><br>
+        <label for="email">email:</label>
+        <input type="text" id="email"name="email" required><br>
+        <label for="Mobile Number">Mobile Number:</label>
+        <input type="tel" id="Mobile Number"name="Mobile Number" required><br>
+
+        <!--ProfilePicture  -->
+        <label for="ProfilePicture"></label>
+        <input type="file" id="ProfilePicture" name="ProfilePicture" accept="image" required>
+        </section> 
+
+        <section>
+            <h3>Education</h3>
+        <label for="Your Knowlege">Your Knowlege:</label>
+        <text id="Your Knowlege" name="Your Knowlege" row="3" req></text><br>
+        <h4>Experience</h4>
+         <label for="Your Experience">Your Experience:</label>
+        <text id="Your Experience" name="Your Experience" row="3" req></text><br>
+        <h5>Skills</h5>
+        <label for="let me know your skills">let me know your skills:</label>
+        <text id="let me know your skills" name="let me know your skills" row="5" req></text><br>
+        <h6>Languages</h6>
+        <label for="How many Languages can you speak?">How many Languages can you speak?:</label>
+        <text id="How many Languages can you speak?" name="How many Languages can you speak?" row="5" req></text><br>
+        </section>
+        <button type="forward"> Generate Resume</button>
+    </form>
+</body>
+</html>
